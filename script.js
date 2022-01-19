@@ -1,16 +1,16 @@
 function commentBox(){
-	var name=document.getElementById('name').value;
-	var comment=document.getElementById('comment').value;
+	const name=document.getElementById('name').value;
+	const comment=document.getElementById('comment').value;
  
 	if(name =="" || comment ==""){
 		alert("Porfavor introduce la informacion requerida!");
 	}else{
-		var parent=document.createElement('div');
-		var el_name=document.createElement('h5');
-		var el_message=document.createElement('p');
-		var el_line=document.createElement('hr');
-		var txt_name=document.createTextNode(name);
-		var txt_message=document.createTextNode(comment);
+		const parent=document.createElement('div');
+		const el_name=document.createElement('h5');
+		const el_message=document.createElement('p');
+		const el_line=document.createElement('hr');
+		const txt_name=document.createTextNode(name);
+		const txt_message=document.createTextNode(comment);
 		el_name.appendChild(txt_name);
 		el_message.appendChild(txt_message);
 		el_line.style.border='1px solid #000';
