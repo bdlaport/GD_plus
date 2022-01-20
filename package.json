@@ -1,0 +1,24 @@
+{
+  "name": "gd_plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "pro": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdlaport/GD_plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdlaport/GD_plus/issues"
+  },
+  "homepage": "https://github.com/bdlaport/GD_plus#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
